@@ -2,7 +2,7 @@
  * 
  * @param {int} divisor 
  * @param {array} numbers 
- * @returns the numbers that are divisible by the divisor
+ * @returns {array}
  */
 
 function divisibleBy(divisor, numbers) {

@@ -1,4 +1,8 @@
-//Returns all the divisors of a number
+/**
+ * 
+ * @param {int} number 
+ * @returns {array}
+ */
 
 function divisors(number) {
   let divisors = [];

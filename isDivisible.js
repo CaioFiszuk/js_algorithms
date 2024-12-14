@@ -1,4 +1,9 @@
-//Returns whether a number is divisible by other or not
+/**
+ * 
+ * @param {int} divisor 
+ * @param {array} numbers 
+ * @returns {boolean}
+ */
 
 function isDivisible(divisor, dividend) {
   if(divisor % dividend === 0) {
