@@ -1,3 +1,9 @@
+/**
+ * 
+ * @param {number} number 
+ * @returns {string}
+ */
+
 function numberExpanded(number){
     return String(number).split("").join(" + ");
 }
