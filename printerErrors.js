@@ -26,5 +26,5 @@ function printerErrors(string){
 console.log(printerErrors("llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch")); //26 / 58
 
 
-//Print errors: My keyboard has no keys [n-z]. So there will be an error when this letters are in the string.
-//  number of errors / string length
+// Concept: My keyboard has no keys [n-z]. So there will be an error when this letters are in the string.
+//  (number of errors / string length)
