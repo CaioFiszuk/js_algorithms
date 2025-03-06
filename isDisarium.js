@@ -5,24 +5,14 @@
  */
 
 function isDisarium(number) {
-    let numberToString = String(number);
-    let arrayToString = numberToString.split("");
+    const numbers = Array.from(number.toString());
+    let result = 0;
 
-    for(let i = 0; i < arrayToString.length; i++) {
-        arrayToString[i] = Number(arrayToString[i]);
+    for(let i = 0; i < numbers.length; i++){
+       result += Math.pow(numbers[i], i+1);
     }
 
-    let result = arrayToString.map((v, k)=>{
-        return Math.pow(v, k+1);
-    });
-
-    let compare = result.reduce((prev, current) => prev + current, 0);
-
-    if(compare == number){
-        return true;
-    }else{
-        return false;
-    }
+    return number === result ? true : false;
 }
 
 
